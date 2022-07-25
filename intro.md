@@ -15,4 +15,7 @@ This scenario is also available on our [datastax.com/dev](https://datastax.com/d
 
 **IMPORTANT**: you run this scenario using DataStax Katapod platform, which is beta at the moment. For any kind of questions, issue reports or anything other please contact our team using [email](mailto:aleksandr.volochnev@datastax.com) or [linkedin](https://dtsx.io/aleks).
 
-[start scenario](command:katapod.loadPage?step1){.orange_bar}
+[Run Scenario with ASTRA](command:katapod.loadPage?step1){.orange_bar}
+
+[Run Scenario with LOCAL CASSANDRA](command:katapod.loadPage?start-astra){.orange_bar}
+

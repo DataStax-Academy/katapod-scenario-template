@@ -5,7 +5,7 @@ tasks:
       pip install -U cqlsh
       curl -Ls "https://dtsx.io/get-astra-cli" | bash > instal-cli.log
     command: | 
-      source ~/.astra/cli/astra-init.sh
+      chmod 700 ./scripts/start-scenario.sh
       ./scripts/start-scenario.sh
 ports:
   - port: 9042

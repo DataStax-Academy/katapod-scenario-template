@@ -1,17 +1,14 @@
 #!/bin/bash
 
-cqlsh_for_astra_url="https://downloads.datastax.com/enterprise/cqlsh-astra.tar.gz"
-tmp_directory=/tmp
-
+source ~/.astra/cli/astra-init.sh
+      
 clear
-
 echo " ██████╗  █████╗ ████████╗ █████╗ ███████╗████████╗ █████╗ ██╗  ██╗ "
 echo " ██╔══██╗██╔══██╗╚══██╔══╝██╔══██╗██╔════╝╚══██╔══╝██╔══██╗╚██╗██╔╝ "
 echo " ██║  ██║███████║   ██║   ███████║███████╗   ██║   ███████║ ╚███╔╝  "
 echo " ██║  ██║██╔══██║   ██║   ██╔══██║╚════██║   ██║   ██╔══██║ ██╔██╗  "
 echo " ██████╔╝██║  ██║   ██║   ██║  ██║███████║   ██║   ██║  ██║██╔╝ ██╗ "
 echo " ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ "
-                                                                  
 echo ""
 
 function start_cqlsh_astra() {
@@ -46,4 +43,4 @@ function menu() {
         esac
 }
 
-menu
+#menu
