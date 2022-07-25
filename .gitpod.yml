@@ -4,8 +4,8 @@ tasks:
       docker pull cassandra:4
       pip install -U cqlsh
       curl -Ls "https://dtsx.io/get-astra-cli" | bash > instal-cli.log
-    command: | 
       chmod 700 ./scripts/start-scenario.sh
+    command: | 
       ./scripts/start-scenario.sh
 ports:
   - port: 9042

@@ -4,6 +4,20 @@
 ### [◂](command:katapod.loadPage?intro){.steps} Step 1 of 7 [▸](command:katapod.loadPage?step2){.steps}
 </div>
 
+# Start Cassandra 
+
+```
+docker run -p 9042:9042 -d cassandra:4
+```
+
+```
+echo -n 'Waiting for Cassandra to start...'; timeout 60 bash -c 'until cqlsh -e "describe cluster" >/dev/null 2>&1; do sleep 2; echo -n "."; done'; echo ' Ready!'
+```
+
+```
+docker ps
+```
+
 # Connect
 
 First things first, we have to connect to the database. For that we will use a console client called `cqlsh` (Cassandra Query Language Shell). For the locally installed Cassandra with default settings we can connect as simple as that:
