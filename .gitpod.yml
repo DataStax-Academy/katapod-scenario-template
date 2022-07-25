@@ -1,9 +1,12 @@
 tasks:
   - name: install-dependencies
     init: |
+      curl -Ls "https://dtsx.io/get-astra-cli" | bash
+      echo "Astra Cli Installed"
       docker pull cassandra:4
+      echo "Docker installed"
       pip install -U cqlsh
-      curl -Ls "https://dtsx.io/get-astra-cli" | bash > instal-cli.log
+      echo "Cqlsh installed"
       chmod 700 ./scripts/start-scenario.sh
     command: | 
       ./scripts/start-scenario.sh
