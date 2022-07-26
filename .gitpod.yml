@@ -2,11 +2,8 @@ tasks:
   - name: install-dependencies
     init: |
      curl -Ls "https://dtsx.io/get-astra-cli" | bash 
-     echo "Astra Cli Installed"
      docker pull cassandra:4
-     #echo "Cassandra Docker image pulled"
      pip install -U cqlsh
-     echo "Cqlsh installed"
      chmod 700 ./scripts/start-scenario.sh
     command: | 
       ./scripts/start-scenario.sh
@@ -17,5 +14,5 @@ github:
   prebuilds:
     main: true
 vscode:
-  extensions:
-    - https://github.com/HadesArchitect/katapod/releases/download/0.4.1/katapod-0.4.1.vsix
+   extensions:
+    - https://github.com/HadesArchitect/katapod/releases/download/nightly/katapod-nightly.vsix
