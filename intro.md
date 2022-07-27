@@ -34,3 +34,8 @@
         </div>
       </div>
       </main>
+
+
+[Run with ASTRA](command:katapod.loadPage?start-astra){.btn btn-primary btn-astra}
+
+[Run with DOCKER](command:katapod.loadPage?start-cassandra){.btn btn-primary}
