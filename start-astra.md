@@ -7,7 +7,7 @@
 # To use Astra you need to create an Account and a token
 
 ```
-astra setup
+source ~/.astra/cli/astra-init.sh && astra setup
 ```
 
 # You can now list your db
