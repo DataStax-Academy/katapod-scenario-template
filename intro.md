@@ -1,7 +1,10 @@
-<style>
-    
-</style>
-<div class="top">
+<div class="top" style="background-color: #043A5F;height:200px;">
+
+<img src="https://datastax-academy.github.io/katapod-shared-assets/images/ds-academy-logo.svg" />
+
+<span style="position:absolute;top:20px;left:200px">Difficulty: <b>Beginner</b></span>
+<span style="position:absolute;top:20px;left:200px">Difficulty: <b>Beginner</b></span>
+
 
 # Welcome!
 ## Try It Out: Cassandra Query Language (CQL)
@@ -18,7 +21,11 @@ This scenario is also available on our [datastax.com/dev](https://datastax.com/d
 
 **IMPORTANT**: you run this scenario using DataStax Katapod platform, which is beta at the moment. For any kind of questions, issue reports or anything other please contact our team using [email](mailto:aleksandr.volochnev@datastax.com) or [linkedin](https://dtsx.io/aleks).
 
-[Run Scenario with ASTRA](command:katapod.loadPage?start-cassandra){.orange_bar}
+<div class="tile">
+
+[Run Scenario with ASTRA](command:katapod.loadPage?start-cassandra)
+
+</div>
 
 [Run Scenario with LOCAL CASSANDRA](command:katapod.loadPage?start-astra){.orange_bar}
 
