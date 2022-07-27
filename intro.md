@@ -26,11 +26,9 @@
             </div>
             <h2>Run Locally as a Docker container</h2>
             <p>Docker is already installed. After pulling the image and starting the container (~40s) you will have a full running Cassandra node locally.</p>
-            
-            <a href="#" class="btn btn-primary" style="background-color:#024BA2;border:0px;float:right">
+            <a href="command:katapod.loadPage?start-cassandra" class="btn btn-primary" style="background-color:#024BA2;border:0px;float:right">
               Run with DOCKER
             </a>
-            [Run Scenario with ASTRA](command:katapod.loadPage?start-cassandra){}
             </center>
           </div>
           
