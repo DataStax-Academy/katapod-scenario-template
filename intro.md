@@ -31,7 +31,6 @@
             </a>
             </center>
           </div>
-          
         </div>
       </div>
       </main>
