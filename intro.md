@@ -16,12 +16,9 @@
             </div>
             <h2>Free Cloud DBaas Datastax Astra</h2>
             <p>Save installation time and reuse databases and data across scenarios. You need to sign up and create an account and generate a token. It is totally free and we will guide you.</p>
-            <a href="#" class="btn btn-primary btn-astra">
+            <a href="command:katapod.loadPage?start-cassandra" class="btn btn-primary btn-astra">
               Run with ASTRA
             </a>
-            
-            [Run Scenario with ASTRA](command:katapod.loadPage?start-cassandra){}
-
           </div>
           <div class="feature col div-choice">
             <div style="height:80px;margin-top:-30px">
