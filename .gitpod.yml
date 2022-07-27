@@ -1,12 +1,8 @@
 tasks:
   - name: install-dependencies
     init: |
-     curl -Ls "https://dtsx.io/get-astra-cli" | bash 
      docker pull cassandra:4
      pip install -U cqlsh
-     chmod 700 ./scripts/start-scenario.sh
-    command: | 
-      ./scripts/start-scenario.sh
 ports:
   - port: 9042
     onOpen: ignore  
