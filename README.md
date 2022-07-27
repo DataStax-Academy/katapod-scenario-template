@@ -1,44 +1,21 @@
 # Katapod
 
-[![Open in KataPod](https://gitpod.io/button/open-in-gitpod.svg)](https://katapod.datastaxtraining.com/#https://github.com/datastax-academy/katapod-scenario-template/)
-
-
-Scenario for the use to pick the destination platform:
-```
-start-scenario.sh
-```
-
-### Work in progress
+This repository is meant to be a template to create a scenarios in the future.
 
 ```
-
  ██████╗  █████╗ ████████╗ █████╗ ███████╗████████╗ █████╗ ██╗  ██╗ 
  ██╔══██╗██╔══██╗╚══██╔══╝██╔══██╗██╔════╝╚══██╔══╝██╔══██╗╚██╗██╔╝ 
  ██║  ██║███████║   ██║   ███████║███████╗   ██║   ███████║ ╚███╔╝  
  ██║  ██║██╔══██║   ██║   ██╔══██║╚════██║   ██║   ██╔══██║ ██╔██╗  
  ██████╔╝██║  ██║   ██║   ██║  ██║███████║   ██║   ██║  ██║██╔╝ ██╗ 
  ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚══════╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝ 
-
-You can run this scenario using different Apache Cassandra™ 
-
-(1) - Astra DB (Free Cloud service)
-(2) - Local Cassandra (Docker)
-
-Choose an option (1 or 2) :
 ```
 
-#### If using Astra 
+[![Open in KataPod](https://github.com/DataStax-Academy/katapod-shared-assets/blob/main/images/open-in-katapod.png?raw=true)](https://katapod.datastaxtraining.com/#https://github.com/datastax-academy/katapod-scenario-template/)
 
-- Asking for a token
-- Creating db `cassandra fundamentals` if needed (parameter of the script)
-- Creating keyspace `scenario_demo` if needed (parameter of the script)
-- Download the cloud securebundle
-- Show CqlSH for Astra Prompt
+# Overview
 
-#### If using Cassandra 
+You can run the Cassandra scenarios locally of again Astra.
 
-- Start Cassandra
-- Install pip cqlsh
-- Show CqlSH
 
 
