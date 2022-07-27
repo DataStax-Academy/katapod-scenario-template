@@ -10,5 +10,3 @@ echo " ╚═════╝ ╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚�
 echo ""
 echo "Before Starting choose a platform ASTRA or DOCKER on the left panel."
 
-
-
