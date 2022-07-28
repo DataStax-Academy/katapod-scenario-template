@@ -1,8 +1,19 @@
 <div class="top">
-
-# Try It Out: Cassandra Query Language (CQL)
-### [◂](command:katapod.loadPage?intro){.steps} Step 1 of 7 [▸](command:katapod.loadPage?step2){.steps}
+  <img src="https://datastax-academy.github.io/katapod-shared-assets/images/ds-academy-logo.svg" />
+  <span style="position:absolute;top:20px;left:350px;font-size:30px"><b>Cassandra Fundamentals</b></span>
+  <span style="position:absolute;top:90px;left:350px;font-size:20px"><u>Module:</u> <b>Introduction to CQL</b></span>
+  <span style="position:absolute;top:60px;left:350px;font-size:20px"><u>Level:</u> <b>Beginner</b></span>
+  <a href="command:katapod.loadPage?%5B%7B%22step%22%3A%22intro%22%7D%5D" class="btn btn-primary btn-astra" class="btn btn-primary" style="background-color:#111111;border:0px;position:absolute;top:130px;left:20px">
+      ⬅️ Previous
+  </a>
+  <a href="command:katapod.loadPage?%5B%7B%22step%22%3A%22step2%22%7D%5D" class="btn btn-primary btn-astra" class="btn btn-primary" style="background-color:#111111;border:0px;position:absolute;top:130px;right:20px">
+       Next ➡️
+  </a>
 </div>
+
+<main style="margin-top:20px">
+ok
+</main>
 
 # To use Astra you need to create an Account and a token
 

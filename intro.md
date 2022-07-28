@@ -6,9 +6,10 @@
 </div>
 
 
-<main style="margin-top: 30px;">
+<main>
     <div class="container px-4 py-5" id="featured-2" >
-        <h2 class="pb-2 border-bottom blue_900">🏁 Before Starting: Pick the platform to work with</h2>
+        <h2 class="pb-2 border-bottom blue_900">🏁 Before Starting</h2>
+        <p><br/>You can run the hands-on using either a local environment or a cloud service. Pick the one you like:</p>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
           <div class="feature col div-choice">
             <div style="height:50px;">
@@ -34,8 +35,3 @@
         </div>
       </div>
       </main>
-
-
-[Run with ASTRA](command:katapod.loadPage?start-astra){.btn btn-primary btn-astra}
-
-[Run with DOCKER](command:katapod.loadPage?start-cassandra){.btn btn-primary}
