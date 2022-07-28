@@ -6,7 +6,7 @@
 </div>
 
 
-<main style="margin-top: 130px;">
+<main style="margin-top: 30px;">
     <div class="container px-4 py-5" id="featured-2" >
         <h2 class="pb-2 border-bottom blue_900">🏁 Before Starting: Pick the platform to work with</h2>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
